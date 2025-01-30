@@ -1,0 +1,1 @@
+This repository demonstrates a common but subtle bug in shell scripting related to handling filenames containing spaces.  The `bug.sh` script incorrectly processes files with spaces because of word splitting.  The solution, `bugSolution.sh`, provides a corrected approach using arrays or quoting to properly manage filenames with spaces.
